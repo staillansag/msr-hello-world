@@ -77,11 +77,14 @@
 
   <!-- nodes -->
 
+<MAPDELETE FIELD="/name;1;0">
+</MAPDELETE>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="false" FIELD="/_generatedResponse;4;0;HelloWorld.api.HelloWorld_.docTypes:Greeting/message;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">Hello %name%</value>
+  <value name="xml">Hi %name%</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
@@ -96,8 +99,5 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPDELETE FIELD="/name;1;0">
-</MAPDELETE>
 </MAP>
 </FLOW>
